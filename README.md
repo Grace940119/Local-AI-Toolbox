@@ -66,6 +66,8 @@
 <img width="960" height="504" alt="image" src="https://github.com/user-attachments/assets/8ea70910-9bd8-4d05-a573-378bcf67295b" />
 <img width="960" height="504" alt="image" src="https://github.com/user-attachments/assets/ea0237a8-f41c-4469-9b85-2779dc9bd108" />
 
+https://colab.research.google.com/drive/1fIqzvuJNaF7-3LPP-ll7mGi8op43C852?usp=sharing
+
 ### 但我們不甘於只有聊天+翻譯，Gradio網站這個聊天機器甚至有點笨拙，所以後來打算用Visual Studio Code重做一遍，學習使用新環境開發程式。
 ## 1️⃣問題：在Vitual Studio Code用Python+ChatGPT製作一個AI實用百寶箱
 - 功能可包含：互動聊天、文字摘要、程式碼說明、圖像生成
