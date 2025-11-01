@@ -125,7 +125,12 @@
 ---
 <img width="473" height="265" alt="image" src="https://github.com/user-attachments/assets/0238a947-6354-49e6-8825-09fdbaf22562" />
 
-## 3️⃣問題：回答是英文，我希望是中文且沒有字數限制
+## 3️⃣問題：回答是中文，且希望是沒有字數限制
+- 中文模式：自動加上「用中文回答」。
+- 長對話：最多保留最近 10 輪問題與回答，AI 可以上下文連貫回應。
+- 無字數限制：max_tokens 設成 3000，n_ctx 8192，能生成長篇回答。
+- 滾動上下文：超過 MAX_HISTORY，舊對話自動捨棄，避免超出模型限制。
+- 多功能：小詩、問答、計算、翻譯等都可以直接輸入中文。
 <img width="474" height="200" alt="image" src="https://github.com/user-attachments/assets/01c1c779-71bb-4cbc-8de9-20ecde3a2055" />
 <img width="497" height="271" alt="image" src="https://github.com/user-attachments/assets/362514b2-8f2d-4b5b-9d52-a0411e54d67c" />
 
@@ -139,9 +144,28 @@
 
 ---
 <img width="473" height="332" alt="image" src="https://github.com/user-attachments/assets/c6286e69-5e91-4f0e-8712-140271ba8d02" />
+
 ## 成果如下：
 ### PowerShell
-<img width="761" height="464" alt="image" src="https://github.com/user-attachments/assets/d0951f6e-9f72-446b-ad0a-8007c4d423b8" />
+<img width="761" height="464" alt="image" src="https://github.com/user-attachments/assets/9a2cc069-3c9b-4c8f-878c-ec24ed5a5d32" />
+
+### Visual Studio Code (程式部分)
+<img width="476" height="427" alt="image" src="https://github.com/user-attachments/assets/94a8f0a4-f3aa-4eb9-908b-bb02e4b0e424" />
+<img width="618" height="491" alt="image" src="https://github.com/user-attachments/assets/cede5473-7ae2-4c66-8d39-a846dae8dddc" />
+<img width="518" height="457" alt="image" src="https://github.com/user-attachments/assets/00978f1c-0008-44a0-9e2d-6345a1df7e4c" />
+
+### 專案結構
+    ai-toolbox-local/
+    ├─ __pycache__/
+    |    └─utils_local.cpython-39.pyc
+    ├─ models/
+    |    └─ mistral-7b-instruct.gguf
+    ├─ utils_local.py
+    └─ run_local_ai_toolbox_long.py
+
+
+   
+(檔案太大不能上傳)
 
 
 
