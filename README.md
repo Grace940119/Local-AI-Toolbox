@@ -7,6 +7,7 @@
 <img width="479" height="382" alt="image" src="https://github.com/user-attachments/assets/eb0d411f-640d-4091-a8cb-24f3cefd8355" />
 <img width="479" height="392" alt="image" src="https://github.com/user-attachments/assets/bcdc71db-cb14-444a-804e-87046a299493" />
 
+---
 ### 因為曾經上課學過 Google Colab ，所以想從 Google Colab 來上手。
 
 <img width="473" height="395" alt="image" src="https://github.com/user-attachments/assets/0d035060-55f7-4e15-9008-57a2abd66736" />
@@ -23,6 +24,7 @@
 ---
 <img width="468" height="381" alt="image" src="https://github.com/user-attachments/assets/bb9b1276-fa6f-424a-a1e2-8c0108e59e3e" />
 
+---
 ## 2️⃣問題：ChatGPT 回覆一直錯誤，是否一定要金鑰？
 - 對 OpenAI API 必須有可用額度或金鑰，否則會出現錯誤
 - 429 錯誤表示「額度不足」
@@ -30,11 +32,14 @@
   1. 升級方案或付費增加額度
   2. 等免費額度重置
   3. 改用免費模型（Hugging Face DialoGPT-small 等）
+ 
 <img width="494" height="376" alt="image" src="https://github.com/user-attachments/assets/76d13c44-a71b-4ff9-ab2d-d2f573c74d59" />
 <img width="478" height="395" alt="image" src="https://github.com/user-attachments/assets/031ab3fe-c0e8-4f8d-bc0e-5c7a959cc62c" />
 
 ---
 <img width="479" height="359" alt="image" src="https://github.com/user-attachments/assets/e56109eb-6c7d-471e-bc57-761438a14b2e" />
+
+---
 
 ## 3️⃣問題：翻譯結果不正確，刪除摘要和程式碼解釋
 - DialoGPT 不是專門翻譯模型
@@ -43,11 +48,14 @@
   - 英文→中文：`Helsinki-NLP/opus-mt-en-zh`
 - 簡化成 **只保留聊天 + 雙向翻譯功能**
 - 完全免費、免金鑰、直接使用 Gradio 介面
+
 <img width="478" height="380" alt="image" src="https://github.com/user-attachments/assets/fde27892-cd35-4aa4-ac81-01f13f30bb33" />
 <img width="474" height="380" alt="image" src="https://github.com/user-attachments/assets/70b3ecbd-6b53-4901-a859-e0d624b42f70" />
 
 ---
 <img width="470" height="354" alt="image" src="https://github.com/user-attachments/assets/89acd466-b48f-487f-ba29-6bfa980c6d5e" />
+
+---
 
 ## 成果如下：
 ### Google Colab
@@ -62,6 +70,7 @@
 ## 1️⃣問題：在Vitual Studio Code用Python+ChatGPT製作一個AI實用百寶箱
 - 功能可包含：互動聊天、文字摘要、程式碼說明、圖像生成
 - 提供初步範例程式碼框架
+
 <img width="479" height="324" alt="image" src="https://github.com/user-attachments/assets/a196125c-077d-4ed7-9b95-19220da0e8f9" />
 <img width="473" height="334" alt="image" src="https://github.com/user-attachments/assets/c285eb9f-80e1-4a77-afd9-7910395531d1" />
 
@@ -87,6 +96,8 @@
 
 ---
 <img width="472" height="326" alt="image" src="https://github.com/user-attachments/assets/64f7a6d6-b3aa-4297-8b52-dd09be1ac343" />
+
+---
 
 ## 2️⃣問題：明明有建立檔案，錯誤提示一直顯示查無檔案。
 #### Visual Studio Code (VS Code)
@@ -119,11 +130,14 @@
 - 注意：
   - Python 語法要在 >>> 互動模式或 .py 檔案執行，不能直接在 PowerShell 寫 from llama_cpp import Llama，否則報錯。
 ### 我們用 PowerShell 和 Anaconda Prompt 檢查出來，最後發現是 GPT 給的路徑錯誤
+
 <img width="482" height="332" alt="image" src="https://github.com/user-attachments/assets/09e13e2d-facb-4982-8a7d-1a9379e55e9f" />
 <img width="482" height="331" alt="image" src="https://github.com/user-attachments/assets/f047a72e-f189-4035-91ac-09589b86e92d" />
 
 ---
 <img width="473" height="265" alt="image" src="https://github.com/user-attachments/assets/0238a947-6354-49e6-8825-09fdbaf22562" />
+
+---
 
 ## 3️⃣問題：回答是中文，且希望是沒有字數限制
 - 中文模式：自動加上「用中文回答」。
@@ -131,6 +145,7 @@
 - 無字數限制：max_tokens 設成 3000，n_ctx 8192，能生成長篇回答。
 - 滾動上下文：超過 MAX_HISTORY，舊對話自動捨棄，避免超出模型限制。
 - 多功能：小詩、問答、計算、翻譯等都可以直接輸入中文。
+
 <img width="474" height="200" alt="image" src="https://github.com/user-attachments/assets/01c1c779-71bb-4cbc-8de9-20ecde3a2055" />
 <img width="497" height="271" alt="image" src="https://github.com/user-attachments/assets/362514b2-8f2d-4b5b-9d52-a0411e54d67c" />
 
@@ -145,9 +160,11 @@
 ---
 <img width="473" height="332" alt="image" src="https://github.com/user-attachments/assets/c6286e69-5e91-4f0e-8712-140271ba8d02" />
 
+---
+
 ## 成果如下：
 ### PowerShell
-<img width="761" height="464" alt="image" src="https://github.com/user-attachments/assets/9a2cc069-3c9b-4c8f-878c-ec24ed5a5d32" />
+<img width="761" height="464" alt="image" src="https://github.com/user-attachments/assets/57efca1b-e803-4c25-b0c4-66695573b6dc" />
 
 ### Visual Studio Code (程式部分)
 <img width="476" height="427" alt="image" src="https://github.com/user-attachments/assets/94a8f0a4-f3aa-4eb9-908b-bb02e4b0e424" />
@@ -163,10 +180,12 @@
     ├─ utils_local.py
     └─ run_local_ai_toolbox_long.py
 
-
-   
 (檔案太大不能上傳)
 
+## 結語
 
+從 **Google Colab** 到 **VS Code**、**PowerShell**、再到 **Anaconda Prompt**，經過這一路的摸索。
 
+Colab 讓我們先體驗怎麼跑模型，VS Code 是最終寫程式的地方，PowerShell 用來下指令，Anaconda 則幫我們管環境。
 
+雖然中間遇到很多錯誤，但每解決一個問題，就多學到一點。最後看著自己的「AI 百寶箱」真的能跑起來，我們覺得超有成就感。
