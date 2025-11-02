@@ -182,7 +182,7 @@ https://colab.research.google.com/drive/1fIqzvuJNaF7-3LPP-ll7mGi8op43C852?usp=sh
     ├─ utils_local.py
     └─ run_local_ai_toolbox_long.py
 
-(檔案太大不能上傳)
+#### (量化模型檔案太大不能上傳)
 
 ## 結語
 
