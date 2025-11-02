@@ -186,8 +186,8 @@ https://colab.research.google.com/drive/1fIqzvuJNaF7-3LPP-ll7mGi8op43C852?usp=sh
 
 ## 結語
 
-從 **Google Colab** 到 **VS Code**、**PowerShell**、再到 **Anaconda Prompt**，經過這一路的摸索。
+從 Google Colab 到 VS Code、PowerShell、再到 Anaconda Prompt，經過這一路的摸索。
 
-Colab 讓我們先體驗怎麼跑模型，VS Code 是最終寫程式的地方，PowerShell 用來下指令，Anaconda 則幫我們管環境。
+Colab 讓我們先體驗怎麼跑模型，很方便但聊天機器不太聰明； VS Code 是我們最終寫程式的地方，PowerShell 用來下指令，Anaconda 則管環境，做出執行速度較慢，但比較聰明且功能較多的 AI 百寶箱。
 
 雖然中間遇到很多錯誤，但每解決一個問題，就多學到一點。最後看著自己的「AI 百寶箱」真的能跑起來，我們覺得超有成就感。
